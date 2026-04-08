@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Add Application{% endblock %}
+
+{% block content %}
+<h2>Add New Application</h2>
+
+<div class="card">
+    <form method="POST">
+        <label for="company">Company Name</label>
+        <input type="text" id="company" name="company" required>
+
+        <label for="job_title">Job Title</label>
+        <input type="text" id="job_title" name="job_title" required>
+
+        <label for="status">Status</label>
+        <select id="status" name="status">
+            <option>Applied</option>
+            <option>Interviewing</option>
+            <option>Rejected</option>
+            <option>Offer</option>
+        </select>
+
+        <label for="date_applied">Date Applied</label>
+        <input type="date" id="date_applied" name="date_applied">
+
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" rows="5"></textarea>
+
+        <button type="submit">Save Application</button>
+    </form>
+</div>
+{% endblock %}
