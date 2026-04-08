@@ -20,7 +20,13 @@ A full-stack Flask web application that helps users track job applications in on
 - CSS
 
 ## Screenshots
+![Home Page](screenshots/home-page.png)
 
+![Add Application Page](screenshots/add-application.png)
+
+![Edit Application Page](screenshots/edit-application.png)
+
+![Delete Confirmation](screenshots/delete-confirmation.png)
 
 
 ## How to Run Locally
